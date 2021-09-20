@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Dropdown Menu</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<div class="menu">
+		<div class="dropdown" data-dropdown>
+			<button class="link" data-dropdown-button>Products</button>
+      <div class="dropdown-menu information-grid">
+				<div>
+					<div class="dropdown-heading">Electronics</div>
+					<div class="dropdown-links">
+						<a href="#" class="link">Computers</a>
+						<a href="#" class="link">Cell Phones</a>
+						<a href="#" class="link">Video Projectors</a>
+					</div>
+				</div>
+				<div>
+					<div class="dropdown-heading">Fashion</div>
+					<div class="dropdown-links">
+						<a href="#" class="link">Clothing</a>
+						<a href="#" class="link">Shoes</a>
+						<a href="#" class="link">Jewelry</a>
+					</div>
+				</div>
+				<div>
+					<div class="dropdown-heading">Automotive</div>
+					<div class="dropdown-links">
+						<a href="#" class="link">Cars</a>
+						<a href="#" class="link">Motorcycles</a>
+						<a href="#" class="link">Tires</a>
+					</div>
+				</div>
+				<div>
+					<div class="dropdown-heading">Sport</div>
+					<div class="dropdown-links">
+						<a href="#" class="link">Outdoors</a>
+						<a href="#" class="link">Recreation</a>
+						<a href="#" class="link">Fun</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="link">Pricing</a>
+		<div class="dropdown" data-dropdown>
+			<button class="link" data-dropdown-button>Login</button>
+			<div class="dropdown-menu">
+				<form class="login-form">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password">
+					<button type="submit">Login</button>
+				</form>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
